@@ -1,0 +1,6 @@
+name = input("What is your name?: ")
+age = input("How old are you?: ")
+location =input("Where do you live?: ")
+message1= ("Good morning "+ name + "?. You are " + age +" years old. ")
+message2 =("I am glad you live in "+location+ ". We are neighbors!")
+print(message1+message2)
