@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        section {
+            width: 30%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        section img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our website</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a> | 
+        <a href="#gallery">Gallery</a> | 
+        <a href="#menu">Menu</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our website! Here are some image related to technology:</p>
+            <ul>
+                <li><a href="https://technology.com/tech1"><img src="technology1.jpg" alt="Technology "></a> Technology item 1</li>
+                <li><a href="https://technology.com/tech2"><img src="technology2.jpg" alt="Technology 2"></a> Technology item 2</li>
+                <li><a href="https://technology.com/tech3"><img src="technology3.jpg" alt="technology 3"></a> Technology item 3</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out these our eye-catching nature-related images:</p>
+            <ul>
+                <li><a href="https://nature.com/nature1"><img src="nature1.jpg" alt="Nature"></a>Nature item 1</li>
+                <li><a href="https://nature.com/nature2"><img src="nature2.jpg" alt="Nature 2"> </a>Nature item 2</li>
+                <li><a href="https://nature.com/nature3"><img src="nature3.jpg" alt ="Nature 3"></a>Nature item 3</li>
+            </ul>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>Explore our delicious menu:</p>
+            <ul>
+                <li><a href="https://ourmenu.com/food1"><img src="food1.jpg" alt="Food 1"></a> Food Item 1</li>
+                <li><a href="https://ourmenu.com/food2"><img src="food2.jpg" alt="Food 2"></a> Food Item 2</li>
+                <li><a href="https://ourmenu.com/food3"><img src="food3.jpg" alt="Food 3"></a> Food Item 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
