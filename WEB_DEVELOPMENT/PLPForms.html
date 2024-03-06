@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week3 assignment</title>
+    </head>
+
+    <body>
+        <p> <strong>Student Registration Form </strong></p>
+        <form action="action_page.php" method="post">
+
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="name" placeholder="John" required><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="name" placeholder="Murphy" required><br>
+
+            <label for="gender">Gender</label><br>
+            <select id="gender" required >
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Prefer Not to say</option>
+            </select><br>
+
+            <label for="birthday">Date of Birth</label>
+            <input type="date" id="birthday" name="birthday" placeholder="date of birth" required><br>
+ 
+            <label for="telephone">Telephone Number</label><br>
+            <input type="tel" id="telephone" name="telephone" placeholder="tel" pattern="[0-9]{3}-[0-9]{1}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="abcd@gmail.com" required><br>
+
+            <label for="address">Address</label><br>
+            <input type="text" id="address" name="address" placeholder="zipcode" required>
+            <input type="text" id="address" name="address" placeholder="state" required><br>
+
+            <label for="course">Enter your course</label><br>
+            <input type="text" id="course" name="course" placeholder="Bsc.criminology" required><br>
+
+            <button type="register">Register</button><br>
+            <button type="cancel">Cancel</button>
+        </form>
+    </body>
+   
+</html>
