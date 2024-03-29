@@ -23,11 +23,10 @@ file.write("I just hope what i am doing here is appending and not writting, haha
 file.close'''
 
 #STEP 4
-'''with open("my_file.txt", "r") as file:
-    print(file.read())
+   
+'''try:
+    with open("my_file.txt") as file:
+        print(file.read())
     
-    try:
-        with open("my_file.txt") as file:
-            print(file.read())
-    except FileNotFoundError:
-        print("File Not Found()")'''
+except FileNotFoundError:
+    print("File Not Found()")'''
