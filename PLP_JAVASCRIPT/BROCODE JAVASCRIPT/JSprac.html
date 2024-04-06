@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JAVASCRIPT</title>
+</head>
+<body>
+    <p id="p1">Welcome to our website</p>
+    <button id="btn1"> Submit</button>
+
+
+    <script>
+     let button=document.getElementById("btn1");
+     function changename(event){
+        let para=document.getElementById("p1");
+        para.innerText='Hello member, welcome to our website and enjoy';
+     }
+     button.addEventListener('click', changename)
+    </script>
+</body>
+</html>

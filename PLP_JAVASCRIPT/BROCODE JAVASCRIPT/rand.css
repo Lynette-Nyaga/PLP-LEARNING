@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#lab{
+    font-size: 3em;
+}
+
+.labs{
+    font-size: 3em;
+}
+#roll1{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 7px;
+    margin-top: 50px;
+}

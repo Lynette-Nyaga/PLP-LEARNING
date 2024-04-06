@@ -1,0 +1,13 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#roll{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+#lab{
+    font-size: 3em;
+    color:aqua;
+}

@@ -1,0 +1,21 @@
+#countlabel{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family:Helvetica;
+}
+#dbtns{
+    text-align: center;
+}
+.bts{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color:aliceblue;
+    background-color: rgba(75, 136, 210, 0.627);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+.bts:hover{
+    background-color: rgb(32, 32, 190);
+}
