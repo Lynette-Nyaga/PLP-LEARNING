@@ -14,7 +14,7 @@ void subtractTwo(int a, int b) {
   print("this is the difference of the two entered numbers: $diff ");
 }
 
-void main() {
+/*void main() {
   subtractTwo(987, 654);
 }
 
@@ -54,4 +54,4 @@ dynamic firstElement(List inputList) {
 
 void main() {
   print(firstElement([30, 28, 35]));
-}
+}*/
