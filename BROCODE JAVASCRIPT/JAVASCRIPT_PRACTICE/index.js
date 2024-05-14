@@ -6,6 +6,10 @@ The cash register has 3 items for sale:
     Smart TV for 220
     Gaming Console for 150
 
+
+
+    C:\Users\admin\AppData\Local\Programs\mongosh\
+
 There's a 10% discount when the total price is higher than 400.
 
 The cash register should have a shopping cart that starts empty.

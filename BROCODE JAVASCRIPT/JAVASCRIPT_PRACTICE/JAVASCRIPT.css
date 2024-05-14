@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#mybtn{
+    font-size: 3em;
+    padding:5px 25px;
+    border-radius: 5px;
+    background-color: rgba(23, 139, 234, 0.844);
+    color:beige;
+}
+#div{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#mylabels{
+    font-size: 4rem;
+    color:rgba(0, 0, 0, 0.144);
+}
