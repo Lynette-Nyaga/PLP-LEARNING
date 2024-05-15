@@ -334,13 +334,201 @@
 
 //ARRAYS
 
-let fruits=["apple", "Banana", "strawberry", "mango", "berries" ];
+// let fruits=["apple", "Banana", "strawberry", "mango", "berries" ];
 // let numberOfFruits=fruits.length;
 // console.log(`The fruit array has ${numberOfFruits} fruits.`);
-let indexA=fruits.indexOf("apple");
-let indexB=fruits.indexOf("Banana");
 
-console.log(`Apple is at index ${indexA} and banana is at index ${indexB}.`);
+// let fruits=["apple", "Banana", "strawberry", "mango", "berries" ];
+// let indexA=fruits.indexOf("apple");
+// let indexB=fruits.indexOf("Banana");
+// console.log(`Apple is at index ${indexA} and banana is at index ${indexB}.`);
+
+// let fruits=["apple", "banana", "strawberry", "berries", "mango"];
+// for(i=0;i<fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// let fruits=["apple", "banana", "kiwi", "orange"];
+// for(i=0;i<fruits.length;i++){
+//     console.log(fruits[i]);
+// }
+
+// let names=[ "june","mildred", "dylan","declan"];
+// for(name of names){
+//     console.log(name);
+// }
+
+
+// let towns=["chuka", "nairobi", "meru", "kisumu", "nakuru"];
+// for(i in towns){
+//     console.log(towns[i]);
+// }
+// for(town of towns){
+//     console.log(town);
+// }
+
+// let names=[ "june","mildred", "dylan","declan"];
+// for(i in names){
+//     console.log(names[i]);
+// }
+// console.log(names.sort());
+// console.log(names.sort().reverse());
+
+//SPREAD OPERATOR
+// let numbers=[1,2,3,4,5,6,7,8,9];
+// let max=Math.max(...numbers);
+// console.log(max);
+
+// let numbers=[1,2,3,4,5,6,7,8,9];
+// let min=Math.min(...numbers);
+// console.log(`The minimum number is ${min}.`);
+
+// let name = "lynette Nyaga";
+// let name2 = [...name].join("-");
+// console.log(name2);
+
+// let fruits=["apple", "mango", "banana"];
+// let veges=["kales", "onions", "carots"];
+// let foods=[...fruits, ...veges, "milk", "cabbage"];
+// console.log(foods);
+
+//REST PARAMETERS
+// function openFridge(...foods){
+//     console.log(...foods);
+// }
+// const food1="pizza";
+// const food2="ugali";
+// const food3="rice";
+// const food4="matoke";
+// const food5="beef";
+
+// openFridge(food1, food2, food3, food4, food5);
+
+
+// function identity(...names){
+//     console.log(names);
+// }
+// let name1="lynette";
+// let name2="kananu"; 
+// let name3="nyaga";
+// let name4="mildred";
+// let name5="nyaga";
+
+// OR PASS IN THE PARAMETERS WHEN CALLING THE FUNCTION
+
+// identity("lynette", "kananu", "nyaga", "Declan", "liams");
+
+
+
+
+
+
+
+
+// RANDOM PASSWORD GENERATOR
+
+// function generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols) {
+//     const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
+//     const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//     const numbers = '0123456789';
+//     const symbols = '!@#$%^&*()|\\/';
+
+//     let allowedChars = "";
+//     let password = "";
+
+//     allowedChars += includeLowercase ? lowerCaseChars : "";
+//     allowedChars += includeUppercase ? upperCaseChars : "";
+//     allowedChars += includeNumbers ? numbers : "";
+//     allowedChars += includeSymbols ? symbols : "";
+
+//     if (passwordLength <= 0) {
+//         return "Password length must be at least 1";
+//     }
+
+//     if (allowedChars.length === 0) {
+//         return "At least one set of characters needs to be selected";
+//     }
+
+//     for (let i = 0; i < passwordLength; i++) {
+//         const randomIndex = Math.floor(Math.random() * allowedChars.length);
+//         password += allowedChars[randomIndex];
+//     }
+//     return password;
+// }
+
+// // Variable declarations and function call
+// let passwordLength = 7;
+// const includeLowercase = false;
+// const includeUppercase = true;
+// const includeNumbers = true;
+// const includeSymbols = false;
+
+// let password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
+// console.log(`Generated password: ${password}`);
+
+// function hello(){
+//     console.log("hello lynn, good morning");
+// }
+// function bye(){
+//     console.log("Good byee, see you later");
+// }
+// function wait(){
+//     console.log('Please wait for some minutes');
+// }
+// hello(bye());
+// wait(hello());
+// bye(hello());
+
+//FOR EACH()
+
+// let numbers=[1,2,3,4,5,6,7,8,9];
+// numbers.forEach(display);
+// function display(element){
+//     console.log(element);
+// }
+
+
+// function display(element){
+//     console.log(element);
+// }
+// let numbers=[1,2,3,4,5,6,7];
+// numbers.forEach(display);
+
+
+// function display(element){
+//     console.log(element);
+// }
+// let names=["lynn", "kananu", "Nyaga", "Declan", "Dylan", "myles", "liams"];
+// names.forEach(display);
+
+
+// function show(element, index){
+//     console.log(`this is  ${element} element of the array at index ${index}`);
+// }
+// let names =["lynn", "kananu", "nyaga"];
+// names.forEach(show);
+
+
+// let schools=["njuri", "chuka Girls", "Muthambi girls", "Ngaita girls", "ndumbini"];
+// schools.forEach(show);
+// function show(element, index){
+//     console.log(`${element} school is placed at index ${index} in the schools array`);
+// }
+
+
+// function capitalize(element, index, array){
+//     array[index]= element.charAt(0).toUpperCase()+ element.slice(1);
+//     console.log(array[index]);
+// }
+// let fruits=["apples", "bananas", "oranges"];
+// fruits.forEach(capitalize);
+
+
+// let fruits = ["apples", "bananas", "oranges"];
+// let capitalizedFruits = fruits.map(element => element.charAt(0).toUpperCase() + element.slice(1));
+// console.log(capitalizedFruits); // Output: ["Apples", "Bananas", "Oranges"]
+// console.log(fruits); // Original array remains unchanged: ["apples", "bananas", "oranges"]
+
 
 
 
